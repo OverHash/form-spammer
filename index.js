@@ -27,11 +27,9 @@ async function sendForm() {
 }
 
 /* send requests */
-const forLoop = async _ => {
+async _ => {
 	for (k = 0; k < config.sendAmount; k++) {
 		await sendForm();
 		console.log('sent form response ' + (k+1) + '/' + config.sendAmount);
 	}
 }
-
-forLoop();
