@@ -1,5 +1,5 @@
 const request = require('request');
-const googleFormSend = require('google-form-send');
+const googleFormSend = require('google-form-post');
 
 const config = require('./config.json');
 
